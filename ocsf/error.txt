@@ -1,0 +1,2 @@
+Error processing file ./ocsf-schema/metaschema/event.schema.json: Command 'nix run github:nickel-lang/json-schema-to-nickel -- ./ocsf-schema/metaschema/event.schema.json > ./ocsf/metaschema/event.schema.nickel' returned non-zero exit status 101.
+Error processing file ./ocsf-schema/metaschema/object.schema.json: Command 'nix run github:nickel-lang/json-schema-to-nickel -- ./ocsf-schema/metaschema/object.schema.json > ./ocsf/metaschema/object.schema.nickel' returned non-zero exit status 101.
