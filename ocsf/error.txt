@@ -18,3 +18,30 @@ Error processing file ./ocsf-schema/metaschema/dictionary.schema.json: Command '
 Error processing file ./ocsf-schema/metaschema/event.schema.json: Command 'nix run github:nickel-lang/json-schema-to-nickel -- ./ocsf-schema/metaschema/event.schema.json > ./ocsf/metaschema/event.schema.nickel' returned non-zero exit status 101.
 Error processing file ./ocsf-schema/metaschema/profile.schema.json: Command 'nix run github:nickel-lang/json-schema-to-nickel -- ./ocsf-schema/metaschema/profile.schema.json > ./ocsf/metaschema/profile.schema.nickel' returned non-zero exit status 101.
 Error processing file ./ocsf-schema/metaschema/include.schema.json: Command 'nix run github:nickel-lang/json-schema-to-nickel -- ./ocsf-schema/metaschema/include.schema.json > ./ocsf/metaschema/include.schema.nickel' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/attribute.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/attribute.schema.json > ./ocsf/metaschema/attribute.schema.nickel
+    ' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/deprecated.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/deprecated.schema.json > ./ocsf/metaschema/deprecated.schema.nickel
+    ' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/dictionary-attribute.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/dictionary-attribute.schema.json > ./ocsf/metaschema/dictionary-attribute.schema.nickel
+    ' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/event.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/event.schema.json > ./ocsf/metaschema/event.schema.nickel
+    ' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/dictionary.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/dictionary.schema.json > ./ocsf/metaschema/dictionary.schema.nickel
+    ' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/extension.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/extension.schema.json > ./ocsf/metaschema/extension.schema.nickel
+    ' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/include.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/include.schema.json > ./ocsf/metaschema/include.schema.nickel
+    ' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/object.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/object.schema.json > ./ocsf/metaschema/object.schema.nickel
+    ' returned non-zero exit status 101.
+Error processing file ./schemas/ocsf-schema/metaschema/profile.schema.json: Command '
+    nix run github:nickel-lang/json-schema-to-nickel     --extra-substituters https://tweag-nickel.cachix.org     --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA=     -- ./schemas/ocsf-schema/metaschema/profile.schema.json > ./ocsf/metaschema/profile.schema.nickel
+    ' returned non-zero exit status 101.

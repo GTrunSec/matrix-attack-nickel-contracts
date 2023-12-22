@@ -11,7 +11,12 @@ def process_file(source_file, output_dir):
 
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-    command = f"nix run github:nickel-lang/json-schema-to-nickel -- {source_file} > {nickel_file}"
+    command = f'''
+    nix run github:nickel-lang/json-schema-to-nickel \
+    --extra-substituters https://tweag-nickel.cachix.org \
+    --extra-trusted-public-keys tweag-nickel.cachix.org-1:GIthuiK4LRgnW64ALYEoioVUQBWs0jexyoYVeLDBwRA= \
+    -- {source_file} > {nickel_file}
+    '''
     try:
         subprocess.run(command, shell=True, check=True)
     except subprocess.CalledProcessError as e:

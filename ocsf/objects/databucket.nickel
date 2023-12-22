@@ -813,11 +813,4 @@ let predicates =
 in
 
 let rec definitions = { contract = {  }, predicate = {  }, } in
-predicates.contract_from_predicate
-(predicates.allOf
-[
-  predicates.isType '"String",
-  predicates.strings.minLength 5,
-  predicates.strings.pattern
-  "^(0|[1-9]\\d*)\\.(0|[1-9]\\d*)\\.(0|[1-9]\\d*)(?:-((?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*)(?:\\.(?:0|[1-9]\\d*|\\d*[a-zA-Z-][0-9a-zA-Z-]*))*))?(?:\\+([0-9a-zA-Z-]+(?:\\.[0-9a-zA-Z-]+)*))?$"
-])
+predicates.contract_from_predicate predicates.always
